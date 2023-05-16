@@ -23,14 +23,17 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		//glue= {"src/test/java/com/e2etest/automation/step_definitions"},
 		monochrome = true,
 		snippets = CAMELCASE
+		
+		)
+	
 		/**
 		* This class is used to run the test, which is a JUnit Test Runner Class containing the Step Definition location and
 		* the other primary metadata required to run the test.
 		*/
-		)
-public class RunWebSuiteTest{
+		
+
 	
-	
+public class RunWebSuiteTest{	
 	
 }
 
